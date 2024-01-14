@@ -1,6 +1,6 @@
 const transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 
-const formatter = new Intl.NumberFormat("en-US", {
+const formatter = new Intl.NumberFormat("en-IN", {
   style: "currency",
   currency: "INR",
   signDisplay: "always",
